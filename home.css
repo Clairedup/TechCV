@@ -1,0 +1,77 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    background-color:rgb(233, 224, 223);
+  }
+  
+  :root {
+    --main-color: #cc20a7;
+    --main-light-color: #f552df;
+    --container-color: #f8f7fc;
+    --text-color: #14040f;
+    --bg-color: #fff;
+  }
+ 
+  h1,
+h2 {
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: rgb(119, 2, 74) ;
+    margin-bottom: 1.5rem;
+}
+
+
+h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: rgb(56, 3, 40);
+
+}
+  .nav {
+    display: flex;
+    align-items:flex-start;
+    justify-content:first baseline;
+    padding: 30px 0;
+    font-weight:bolder;
+  }
+  
+  .navbar {
+    display:flex;
+    column-gap: 2rem;
+  }
+  
+  .navbar a {
+    position:relative;
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .navbar a:hover,
+  .navbar .active {
+    color: var(--main-color);
+  }
+  .nav-icons {
+    display:flex;
+    column-gap: 1rem;
+  }
+  .nav-icons .bx {
+    font-size: 28px;
+    color: var(--text-color);
+    cursor: pointer;
+    font-weight:bolder;
+  }
+  .nav-icons .bx:hover {
+    color: var(--main-color);
+  } 
